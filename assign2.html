@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 70% auto;
+            gap: 5px;
+        }
+
+        .abc {
+            background-color: rgb(255, 252, 252);
+            grid-template-rows: auto auto;
+            gap: 5px;
+        }
+
+        .ab {
+            display: grid;
+            grid-template-columns: 70% auto;
+            gap: 5px;
+        }
+
+        .a {
+            background-color: red;
+            gap: 5px;
+        }
+
+        .b {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            background-color: blue;
+            gap: 5px;
+        }
+
+        .c {
+            background-color: aquamarine;
+            gap: 5px;
+        }
+
+        .d {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="abc">
+            <div class="ab">
+                <div class="a">A</div>
+                <div class="b">
+                    <div>B1</div>
+                    <div>B2</div>
+                    <div>B3</div>
+                    <div>B4</div>
+                </div>
+
+            </div>
+            <div class="c">C</div>
+        </div>
+        <div class="d">D</div>
+    </div>
+</body>
+
+</html>

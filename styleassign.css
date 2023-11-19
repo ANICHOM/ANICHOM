@@ -1,0 +1,61 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items div {
+    color: white;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+}
+
+.row {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.col-1 {
+    width: 50vw;
+    background-color: aqua;
+}
+
+.col-2 {
+    width: 50vw;
+    background-color: blueviolet;
+}
+.item{
+    
+}
+.item:hover {
+    background-color: rgb(255, 19, 98);
+}
+@media screen and (max-width: 726px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.col-1 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.col-2 {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.nav-items {
+        hdisplay: none;
+    }

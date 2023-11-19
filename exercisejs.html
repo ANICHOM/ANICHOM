@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function f1(i){
+            console.log(i)
+            console.log("more than 5")
+        }
+        function f2(o){
+            console.log(o)
+            console.log("more than 3")
+        }
+        function f3(p){
+            console.log(p)
+            console.log("less than three")
+            return p+7
+        }
+            let a = 1;
+        if(a>5){
+            f1(a)
+        }
+        else if(a>2){
+            f2(a)
+        }
+        else{
+            let result = f3(a);
+            console.log(result)
+            console.log(f3(a))
+        }
+
+        
+    </script>
+</body>
+</html
